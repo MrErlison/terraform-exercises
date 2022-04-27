@@ -1,6 +1,6 @@
 output "os-version" {
-  value = data.local_file.content
+  value = data.local_file.os.content
 }
-datasource "local_file" "os" {
+data "local_file" "os" {
   filename = "/etc/os-release"
 }
