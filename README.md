@@ -1,1 +1,3 @@
-# terraform-exercises
+## Terraform
+
+Only terraform course exercises
