@@ -29,3 +29,4 @@ resource "aws_eip" "eip" {
     command = "echo ${aws_eip.eip.public_dns} >> /root/cerberus_public_dns.txt"
   }
 }
+
